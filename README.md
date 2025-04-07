@@ -12,7 +12,7 @@ This script monitors a set of folders defined in the backup configuration and sy
 
 - **Filters**: Folder names to always exclude from copy operations (at any depth).
 - **Mirror**: Enables/disables `/MIR` (mirrored syncing vs. additive syncing).
-- **Junctions**: Enables/disables copying junctions (i.e. Documents → Pictures).
+- **Junctions**: Enables/disables copying junctions `/XJ` (i.e. Documents → Pictures).
 
 # Examples
 - Essentially backs up the usermod/workshop folder of Source Filmmaker, skips the game resource files
