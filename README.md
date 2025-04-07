@@ -44,11 +44,11 @@ _**Warning:**    Doesn't work if source is set to a drive's root directory, 
 
 ### Schedule this with Task Scheduler to automatically run in the background on login.
 ```
------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
 Start a program:  powershell.exe
 
 Add arguments:   -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "D:\Git\Auto_Backup.ps1"
 
 Start in:         D:\Git
-----------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
 ```
