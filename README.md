@@ -47,8 +47,8 @@ _**Warning:**    Doesn't work if source is set to a drive's root directory, 
 -----------------------------------------------------------------------------------------------------------
 Start a program:  powershell.exe
 
-Add arguments:   -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "D:\Scripts\Auto_Backup.ps1"
+Add arguments:   -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -File "D:\Git\Auto_Backup.ps1"
 
-Start in:         D:\Scripts
+Start in:         D:\Git
 ----------------------------------------------------------------------------------------------------------
 ```
