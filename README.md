@@ -42,7 +42,7 @@ $backupPairs = @(
 
 _**Warning:**    Doesn't work if source is set to a drive's root directory, so don't do that._
 
-### You should schedule this with Task Scheduler to automatically run in the background on login.   Example:
+### Schedule this with Task Scheduler to automatically run in the background on login.   Example:
 ```
 -----------------------------------------------------------------------------------------------------------
 Start a program:    powershell.exe
