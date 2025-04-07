@@ -48,74 +48,11 @@ $backupPairs = @(
         Junctions   = $false
     },
     @{ 
-        Source      = "D:\+3D WORK"; 
-        Destination = "B:\+3D WORK"; 
-        Filters     = @("");
-        Mirror      = $false;
-        Junctions   = $false
-    },
-    @{ 
-        Source      = "D:\+DESKTOP WORK"; 
-        Destination = "B:\+DESKTOP WORK"; 
-        Filters     = @("");
-        Mirror      = $false;
-        Junctions   = $false
-    },
-    @{ 
-        Source      = "D:\Emulator Files"; 
-        Destination = "B:\Emulator Files"; 
-        Filters     = @("");
-        Mirror      = $false;
-        Junctions   = $false
-    },
-    @{ 
-        Source      = "D:\Game Settings"; 
-        Destination = "B:\Game Settings"; 
-        Filters     = @("");
-        Mirror      = $false;
-        Junctions   = $false
-    },
-    @{ 
-        Source      = "D:\Important Stuff"; 
-        Destination = "B:\Important Stuff"; 
-        Filters     = @("Cinema");
-        Mirror      = $false;
-        Junctions   = $false
-    },
-    @{ 
-        Source      = "D:\Minecraft Servers"; 
-        Destination = "B:\Minecraft Servers"; 
-        Filters     = @("");
-        Mirror      = $false;
-        Junctions   = $false
-    },
-    @{ 
-        Source      = "D:\TF2 Server"; 
-        Destination = "B:\TF2 Server"; 
-        Filters     = @("");
-        Mirror      = $false;
-        Junctions   = $false
-    },
-    @{ 
-        Source      = "C:\Users\Matt\Pictures"; 
-        Destination = "B:\Matt\Pictures"; 
+        Source      = "C:\Users\EXAMPLE\Documents"; 
+        Destination = "B:\ChangeME\Documents"; 
         Filters     = @(); 
         Mirror      = $false;
-        Junctions   = $false
-    },
-    @{ 
-        Source      = "C:\Users\Matt\Documents"; 
-        Destination = "B:\Matt\Documents"; 
-        Filters     = @(); 
-        Mirror      = $false;
-        Junctions   = $false
-    },
-    @{ 
-        Source      = "C:\Users\Matt\Desktop"; 
-        Destination = "B:\Matt\Desktop"; 
-        Filters     = @(); 
-        Mirror      = $false;
-        Junctions   = $false
+        Junctions   = $true
     }
 )
 
