@@ -1,6 +1,6 @@
 # really good robocopy auto backup script
 
-###### I couldnt't find a robocopy backup script that supported filters and also wasn't bloated with unneccesary functions so I just made my own.
+###### I couldnt't find a robocopy backup script that supported filters and wasn't bloated with unneccesary functions so I just made my own.
 This script monitors a set of folders defined in the backup configuration and synchronizes them to corresponding destination folders using Robocopy. It supports filters, and can optionally work in mirror mode (deleting files not in the source) if desired. That's all it does.
    
 # Global Flags
@@ -15,7 +15,7 @@ This script monitors a set of folders defined in the backup configuration and sy
 - **Junctions**: Enables/disables copying junctions (i.e. Documents → Pictures).
 
 # Examples
-- Essentially backs up the usermod/workshop folder of Source Filmmaker, skips the game resource files that would just waste space
+- Essentially backs up the usermod/workshop folder of Source Filmmaker, skips the game resource files
 ```
 $backupPairs = @(    
     @{         
