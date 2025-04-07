@@ -2,7 +2,9 @@
 
 ###### I couldnt't find a robocopy backup script that supported filters and wasn't bloated with unneccesary functions so I just made my own.
 This script monitors a set of folders defined in the backup configuration and synchronizes them to corresponding destination folders using Robocopy. It supports filters, and can optionally work in mirror mode (deleting files not in the source) if desired. That's all it does.
-   
+
+_This is meant to be launched automatically with Task Scheduler, the batch file is only for launching manually._
+
 # Global Flags
 
 - **`$debugEnabled`**: Enables/disables verbose debug output.
