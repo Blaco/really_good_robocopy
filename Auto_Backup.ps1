@@ -19,13 +19,13 @@
 	----------------------------------------------------------------------------------------------------------
 
  Global Flags:
-   $debugEnabled     - Enables/disables verbose debug output.
-   $throttleInterval - Time in seconds to wait between sync operations.
+   $debugEnabled       - Enables/disables verbose debug output.
+   $throttleInterval   - Time in seconds to wait between sync operations.
 
  Pair Flags:
-   Filters			 - Folder names to always exclude from copy operations (at any depth)
-   Mirror            - Enables/disables /MIR (mirrored syncing vs. additive syncing)
-   Junctions		 - Enables/disables copying junctions (i.e Documents --> Pictures)
+   Filters	       - Folder names to always exclude from copy operations (at any depth)
+   Mirror              - Enables/disables /MIR (mirrored syncing vs. additive syncing)
+   Junctions	       - Enables/disables copying junctions (i.e Documents --> Pictures)
 
 #>
 
