@@ -34,7 +34,7 @@ $backupPairs = @(
     @{         
         Source      = "C:\Users\DanteFromDMC\Documents";         
         Destination = "B:\Clone_of_My_Documents_and_Media";         
-        Filters     = @(my games);         
+        Filters     = @("my games");         
         Mirror      = $true;         
         Junctions   = $true    
     }
