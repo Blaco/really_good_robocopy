@@ -19,24 +19,24 @@ _This is meant to be launched automatically with Task Scheduler, the batch file 
 # Examples
 - Essentially backs up the usermod/workshop folder of Source Filmmaker, skips the game resource files
 ```
-$backupPairs = @(    
-    @{         
-        Source      = "C:\Program Files (x86)\Steam\steamapps\common\SourceFilmmaker\game";         
-        Destination = "B:\SourceFilmmaker\game";         
-        Filters     = @("blackmesa", "csgo", "hl2", "left4dead", "tf", "tf_movies");         
-        Mirror      = $false;         
-        Junctions   = $false    
+$backupPairs = @(
+    @{
+        Source      = "C:\Program Files (x86)\Steam\steamapps\common\SourceFilmmaker\game";
+        Destination = "B:\SourceFilmmaker\game";
+        Filters     = @("blackmesa", "csgo", "hl2", "left4dead", "portal2", "tf", "tf_movies");
+        Mirror      = $false;
+        Junctions   = $false
     },
 ```
 - Maintains an active clone of Documents, Pictures, and Videos, since /MIR and junctions are both enabled
 - Skips the "My Games" folder inside Documents (case doesn't matter)
 ```
-    @{         
-        Source      = "C:\Users\DanteFromDMC\Documents";         
-        Destination = "B:\Clone_of_My_Documents_and_Media";         
-        Filters     = @("my games");         
-        Mirror      = $true;         
-        Junctions   = $true    
+    @{
+        Source      = "C:\Users\DanteFromDMC\Documents";
+        Destination = "B:\Clone_of_My_Documents_and_Media";
+        Filters     = @("my games");
+        Mirror      = $true; 
+        Junctions   = $true
     }
 )
 ```
