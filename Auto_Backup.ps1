@@ -43,7 +43,7 @@ $backupPairs = @(
     @{ 
         Source      = "C:\Program Files (x86)\Steam\steamapps\common\SourceFilmmaker\game"; 
         Destination = "B:\SourceFilmmaker\game";
-        Filters     = @("blackmesa", "csgo", "hl2", "left4dead", "left4dead_movies", "portal2", "portal2_dlc1", "portal2_dlc2", "tf", "tf_movies");
+        Filters     = @("blackmesa", "csgo", "hl2", "left4dead", "left4dead2_movies", "portal2", "portal2_dlc1", "portal2_dlc2", "tf", "tf_movies");
         Mirror      = $false;
         Junctions   = $false
     },
