@@ -123,7 +123,7 @@ foreach ($pair in $backupPairs) {
             foreach ($filter in $filters) {
                 if ($filter -ne "") {
                     $excludePaths += Get-ChildItem -Path $watcherPath -Recurse -Directory -Force -ErrorAction SilentlyContinue |
-                        Where-Object { $_.Name -ieq $filter } |
+                        Where-Object { $_.FullName -like "*$filter*" }
                         Select-Object -ExpandProperty FullName
                 }
             }
